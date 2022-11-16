@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+}
+
+header{
+    font-size: 200%;
+    font-style: bold;
+}
+
+p{
+margin:20px;
+}
+
+section{
+    display:block;
+}
+
+.card{
+    margin: 3% auto;
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.choice{
+    text-align: left;
+}
