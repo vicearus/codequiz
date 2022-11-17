@@ -37,7 +37,8 @@ function startTimer() {
 
 function showQuestion(){
     q1El.style.display = "inherit";
-    q1El.addEventListener("click", showQuestion2);
+    q1Ch.addEventListener("click", showQuestion2
+);
     
     
 }
@@ -62,6 +63,7 @@ function showQuestion4(){
     // q4Ch.addEventListener("click", showQuestion4)
 
 }
+
 
 startElement.addEventListener("click", startTimer)
 startElement.addEventListener("click", showQuestion)
